@@ -7,6 +7,7 @@
 
 # See https://github.com/GoogleCloudPlatform/datalab-samples/blob/master/basemap/earthquakes.ipynb for a notebook that illustrates this code
 
+import os
 import csv
 import requests
 import io
@@ -15,6 +16,7 @@ import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
+
 
 # Classes to hold the data
 class EarthQuake:
